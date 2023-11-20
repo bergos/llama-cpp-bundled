@@ -8,7 +8,7 @@ It comes with the [Mistral](https://huggingface.co/mistralai/Mistral-7B-Instruct
 The following command will pull the image and start the server, which is listening at [http://localhost:8080/](http://localhost:8080/).
 
 ```bash
-docker run --name=llama-cpp-bundled -p 8088:80 ghcr.io/bergos/llama-cpp-bundled:latest
+docker run --name=llama-cpp-bundled -p 8080:80 ghcr.io/bergos/llama-cpp-bundled:latest
 ```
 
 ## Customize
